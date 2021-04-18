@@ -1,0 +1,15 @@
+Remember to use [x:x:x] 
+
+
+Learnt that I use remember python functions like
+ .replace
+ .split
+ .join
+
+
+DOUBLE CHECK THE INSTRUCTIONS
+
+ 
+
+Currently I take: 40minutes
+Aim: 10 minutes average

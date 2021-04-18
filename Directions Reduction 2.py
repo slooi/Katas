@@ -1,0 +1,15 @@
+def dirReduc(arr):
+    dir = " ".join(arr)
+    print(1, dir)
+    dir2 = dir.replace("NORTH SOUTH",'')
+    print(2, dir2)
+    dir2 = dir2.replace("SOUTH NORTH",'')
+    print(3, dir2)
+    dir2 = dir2.replace("EAST WEST",'')
+    print(4, dir2)
+    dir2 = dir2.replace("WEST EAST",'')
+    print(5, dir2)
+    dir3 = dir2.split()
+    print(6, dir3)
+    return dirReduc(dir3) if len(dir3) < len(arr) else dir3
+print(dirReduc(["NORTH", "WEST",  "EAST","SOUTH","NORTH", "SOUTH","NORTH", "SOUTH","NORTH", "SOUTH","NORTH", "SOUTH","SOUTH", "NORTH"]))

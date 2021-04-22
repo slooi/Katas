@@ -1,0 +1,4 @@
+def domain_name(url):
+	"""
+	SKIPPED DUE TO THE FACT THIS IS IMPOSSIBLE WITHOUT HAVING A LIST OF TLDS
+	"""

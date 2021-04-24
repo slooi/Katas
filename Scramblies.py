@@ -1,5 +1,9 @@
-
-
+def scramble2(s1, s2):
+	s2_set = set(s2)
+	for letter in s2_set:
+		if s1.count(letter) < s2.count(letter):
+			return False
+	return True
 
 
 def scramble(s1, s2):
